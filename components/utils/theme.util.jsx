@@ -10,7 +10,7 @@ export default function SetTheme() {
 	const router = useRouter()
 
 	const [ route, wasRoute ] = useState()
-	const [ theme, setTheme ] = useState()
+	const [ theme, setTheme ] = useState('dark')
 
 	const toggleTheme = () => {
 		if ( theme == 'light') {
@@ -45,7 +45,7 @@ export default function SetTheme() {
 
 		document.querySelector(':root').dataset.theme = ( theme )
 		localStorage.setItem( 'theme', ( theme ) )
-		
+
 		const useSetTheme = (e) => { setTheme( e.matches ? 'dark' : 'light' ) }
 
 		const watchSysTheme = window.matchMedia('(prefers-color-scheme: dark)')
@@ -95,11 +95,11 @@ export default function SetTheme() {
 
 			let gradient = new Gradient()
 			gradient.initGradient("#gradient-canvas")
-		}		
+		}
 
 		return () => { }
 	}, [theme, route])
-	
+
 	return (
 		<>
 			<Script id="theme.util.jsx" strategy="beforeInteractive" >
