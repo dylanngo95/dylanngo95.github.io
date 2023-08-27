@@ -47,7 +47,7 @@ export default function Career() {
 					<article className={career.companyPositions}>
 						<div className={career.position}>
 							<div className={career.positionContent}>
-								<span class={career.positionHeader}>
+								<span className={career.positionHeader}>
 									<h3>Director of Product Design and Development</h3>
 									<h4>Nov 2021 - Present · 1 yrs 3 mos</h4>
 								</span>
@@ -60,12 +60,12 @@ export default function Career() {
 
 						<div className={career.position}>
 							<div className={career.positionContent}>
-								<span class={career.positionHeader}>
+								<span className={career.positionHeader}>
 									<h3>Full Stack Developer & User Experience Designer</h3>
 									<h4>Feb 2020 - Nov 2021 · 1 yrs 10 mos</h4>
 								</span>
 								<p>
-								As the lead full stack developer I am responsible for all software development, CI/CD, and QA. This is for the front end, APIs, and the back end. Additionally I was tasked with identifying and analyzing weak points in the customer journey and employee workflows. Each project had to be estimated and prioritized based on its workload and immediate impact to efficiency or revenue. Some of these projects have been so successful internally that we have planned refactoring for commercialization. 
+								As the lead full stack developer I am responsible for all software development, CI/CD, and QA. This is for the front end, APIs, and the back end. Additionally I was tasked with identifying and analyzing weak points in the customer journey and employee workflows. Each project had to be estimated and prioritized based on its workload and immediate impact to efficiency or revenue. Some of these projects have been so successful internally that we have planned refactoring for commercialization.
 								</p>
 								<p>
 								Some key projects complete during this time 👇
@@ -76,7 +76,7 @@ export default function Career() {
 										<span className={career.subList}><span className={career.bullet}></span>Eradicated critical data input errors</span>
 									</li>
 									<li>
-										Inventory management reporting and automation 
+										Inventory management reporting and automation
 										<span className={career.subList}><span className={career.bullet}></span>Decreased purchasing labour by ~80%</span>
 									</li>
 									<li>
@@ -92,10 +92,10 @@ export default function Career() {
 							</div>
 							<div className={career.positionAlt}></div>
 						</div>
-					
+
 						<div className={career.position}>
 							<div className={career.positionContent}>
-									<span class={career.positionHeader}>
+									<span className={career.positionHeader}>
 										<h3>Front End Developer & User Interface Designer</h3>
 										<h4>Apr 2019 - Feb 2020 · 11 mos</h4>
 									</span>
@@ -110,7 +110,7 @@ export default function Career() {
 										Full functionality interactive shopping cart to replace cart page
 										<span className={career.subList}><span className={career.bullet}></span>Increased conversions by 0.7%</span>
 									</li>
-									<li>Complex multi-state animated menus represented in an elegant UI 
+									<li>Complex multi-state animated menus represented in an elegant UI
 										<span className={career.subList}><span className={career.bullet}></span>Strong brand confidence booster with state of the art menu</span>
 									</li>
 									<li>

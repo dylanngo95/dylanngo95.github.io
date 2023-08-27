@@ -17,14 +17,14 @@ library.add(fat, fal, fas, fad, far, fab)
 /**
  * Icon factory utility.
  * Generates icon JSX and returns it. Keeps all icon packages isolated in here
- * 
+ *
  * ! Can only distribute free icons
  * ? give users access to cheat sheet of free icons
  * ? pre-select those icons in a MD file
  * ? use MD file to only load those icons from the lib
- * 
+ *
  * ! requiring the library will likely create a SSR issue
- * ! According to maintainers of @fortawesome the best solution will be to import the icon directly 
+ * ! According to maintainers of @fortawesome the best solution will be to import the icon directly
  * ! and avoit the library module all together which is inline with MD loading plans
  * * https://github.com/FortAwesome/Font-Awesome/issues/19348
  *

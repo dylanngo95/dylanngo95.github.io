@@ -30,20 +30,20 @@ export async function getServerSideProps({ res }) {
 		fetch(`https://api.github.com/users/${settings.username.github}`),
 		fetch(`https://api.github.com/users/${settings.username.github}/repos`),
 	] )
-	
+
 	let [ user, repos] = await Promise.all( [
 		gitUserRes.json(),
-		gitReposRes.json(), 
+		gitReposRes.json(),
 	] )
 
 	if (user.login) {
-		user = [user].map( 
+		user = [user].map(
 			({ login, name, avatar_url, html_url }) => ({ login, name, avatar_url, html_url })
 		)
 	}
-	
+
 	if (repos.length) {
-		repos = repos.map( 
+		repos = repos.map(
 			({ name, fork, description, forks_count, html_url, language, watchers, default_branch, homepage, pushed_at, topics }) => {
 				const timestamp = Math.floor(new Date(pushed_at) / 1000)
 				return ({ name, fork, description, forks_count, html_url, language, watchers, default_branch, homepage, timestamp, topics, pushed_at })
