@@ -15,16 +15,17 @@
 		"stack": [
 			{ "key": "php", 		"name": "PHP", 		"type": "devicon" },
 			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
+			{ "key": "java", 		"name": "Java", 		"type": "devicon" },
 			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
 			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
 			{ "key": "magento", 	"name": "Magento", 		"type": "devicon" },
 			{ "key": "aws",		"name": "AWS", 		"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
+			{ "key": "docker",		"name": "Docker", 		"type": "devicon" },
+			{ "key": "algorithm",	"name": "Algorithm", 	"type": "devicon" },
+			{ "key": "linux",		"name": "Linux", 		"type": "devicon" },
+			{ "key": "git",		"name": "Git(Hub)", 	"type": "devicon" },
+			{ "key": "google",		"name": "GA4/GTM", 	"type": "devicon" }
 		]
 	},
 	{
