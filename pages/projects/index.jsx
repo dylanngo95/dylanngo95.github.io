@@ -19,12 +19,12 @@ export default function Projects({ user, repos }) {
 }
 
 // This gets called on every request
-export async function getServerSideProps({ res }) {
+export async function getStaticProps({ res }) {
 
-	res.setHeader(
-		'Cache-Control',
-		'public, s-maxage=600, stale-while-revalidate=59'
-	)
+	// res.setHeader(
+	// 	'Cache-Control',
+	// 	'public, s-maxage=600, stale-while-revalidate=59'
+	// )
 
 	const [ gitUserRes, gitReposRes] = await Promise.all( [
 		fetch(`https://api.github.com/users/${settings.username.github}`),

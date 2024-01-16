@@ -6,6 +6,7 @@ const nextConfig = {
 		dir: '/',
 	},
 	images: {
+		unoptimized: true,
 		remotePatterns: [
 			{
 				protocol: 'https',
