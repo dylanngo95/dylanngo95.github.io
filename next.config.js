@@ -1,4 +1,6 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+
+const nextConfig = {
 	reactStrictMode: true,
 	env: {
 		dir: '/',
@@ -38,3 +40,5 @@ module.exports = {
 		],
 	},
 }
+
+module.exports = nextConfig
