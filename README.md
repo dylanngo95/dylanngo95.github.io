@@ -54,4 +54,3 @@ Fork, Install, Editing, and Deploy instructions coming soon(ish)!
 This is my first open-source contribution, and it was also a great oppoortunity for me to learn!
 
 It is my hope that by sharing this project it can give others a chance to enjoy learning Nextjs (and have as much fun as I did), and hopefully brings value to people as a portfolio and networking tool!
-
