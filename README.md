@@ -9,7 +9,7 @@
   <br><br>
 </div>
 
-<img src="https://dylanops.com/img/preview.png">
+<img src="https://portfolio.dylanops.com/img/preview.png">
 
 ## Updates
 #### Dev Update — July 6th, 2023 🥰
