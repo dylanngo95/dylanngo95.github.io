@@ -7,12 +7,12 @@
 		},
 		{
 			"person": "Colorpong - Artist",
-			"link": "ttps://www.youworkforthem.com/designer/536/colorpong?aff=1115",
+			"link": "https://example.com/536/colorpong?aff=1115",
 			"note": "Checkout their amazing vector illustrations."
 		},
 		{
 			"person": "Brittany Chiang - Software Engineer",
-			"link": "https://brittanychiang.com/",
+			"link": "https://example.com/",
 			"note": "A major inspiration to create an open source theme."
 		},
 		{
@@ -25,7 +25,7 @@
 	"links": [
 		{
 			"person": "YWFT Creative Marketplace",
-			"link": "https://www.youworkforthem.com/?aff=1115",
+			"link": "https://example.com/?aff=1115",
 			"note": "Best in class creative assets."
 		}
 	],

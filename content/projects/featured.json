@@ -1,16 +1,16 @@
 [
 	{
 		"project": "My Supply Co.",
-		"url": "https://dylanops.com",
+		"url": "https://www.dylanops.com",
 		"repo": "Private",
 		"descriptionTitle": "D2C & B2B ecommerce site and blog",
 		"description": "with elegant solutions for a complex codebase and customer journey.",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/portfolio/img/msc-mock_stack/03.png" },
-			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/portfolio/img/msc-mock_stack/02.png" },
-			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/portfolio/img/msc-mock_stack/01.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
+			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
+			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
 		],
 		"stack": [
 			{ "key": "php", 		"name": "PHP", 		"type": "devicon" },
@@ -30,7 +30,7 @@
 	},
 	{
 		"project": "dylanops.com",
-		"url": "https://github.com/dylanngo95/portfolio",
+		"url": "https://github.com/iamdylanngo/dylanops.github.io",
 		"repo": "Public",
 		"descriptionTitle": "An open source portfolio",
 		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
@@ -38,7 +38,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/portfolio/img/portfolio-mock_single.png" }
+			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
